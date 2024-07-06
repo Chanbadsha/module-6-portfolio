@@ -39,7 +39,7 @@
 }
 /* Header Css */
 header{
-  background-image: url(/images/developer.png), url(/images/header_bg.png);
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat;
   background-position: left center, right bottom;
   margin-bottom: 20px;
