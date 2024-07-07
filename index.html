@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://kit.fontawesome.com/40fc70c36d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header class="bg_primary">
@@ -27,8 +28,8 @@
             he. Morning because as to society behaved moments.
           </p>
           <div class="banner_btn_section">
-            <button class="primary_btn">Dwonload CV</button
-            ><button class="primary_btn">Contact</button>
+            <button class="primary_btn"><i class="fa-solid fa-download"></i> Dwonload CV</button
+            ><button class="primary_btn"><i class="fa-solid fa-phone"></i> Contact</button>
           </div>
         </div>
         <img class="banner_img" src="./images/badsha.png" alt="" />
@@ -173,8 +174,33 @@
 
         </div>
         </div>
-        <div class="resume_button text_center"><button class="primary_btn">Dwonload CV</button></div>
+        <div class="resume_button text_center"><button class="primary_btn"><i class="fa-solid fa-download"></i> Dwonload CV</button></div>
       </section>
     </main>
+
+    <footer class="bg_primary">
+      <section class="contact_section">
+
+        <div class="social_media_section"><p class="social_media_title">Lets Connect</p>
+        <p class="social_media_description">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+        <div class="icon_section"><span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-twitter"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          </div>
+      </div>
+
+
+
+        <div class="message_box_section">
+          <h2 class="meassage_box_title">Let’s Message me</h2>
+          <form id="message_form" action="">
+            <input type="text" name="" id="username" placeholder="Your name">
+            <input type="email" name="" id="user_mail" placeholder="Your Email">
+            <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+            <input type="button" class="primary_btn" value="Send Message">
+          </form>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

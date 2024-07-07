@@ -4,9 +4,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+ 
 }
 /* Shared Css */
+body{
+  font-family: "Open Sans", sans-serif;
+}
 .text_center {
   text-align: center;
 }
@@ -256,3 +259,71 @@ font-size: 16px;
 }
 
 /* Contact Section */
+
+
+footer{
+  padding: 130px 230px;
+}
+.contact_section{
+  padding: 0px 230px;
+  display: flex;
+  gap: 130px;
+
+}
+.social_media_section{
+  width: 50%;
+}
+.social_media_title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+.social_media_description{
+  font-size: 16px;
+  color: #474747;
+}
+.icon_section{
+  margin-top: 20px;
+  display: flex;
+  gap: 24px;
+}
+span i{
+  color: #fd6e0a;
+  font-size:24px;
+}
+.message_box_section{
+ 
+}
+.meassage_box_title{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 28px;
+}
+#message_form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+input[type="text"], input[type="email"]{
+  border: none;
+  /* display: block; */
+  height: 64px;
+  background-color: white;
+  color:#757575;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+textarea{
+  background-color: white;
+  color:#757575;
+  width: 100%;
+  padding: 18px 30px;
+  border-radius: 5px;
+}
