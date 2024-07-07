@@ -14,7 +14,7 @@
   background-color: #fff8f3;
 }
 .bg_secondery {
-  background-color:#fff ;
+  background-color: #fff;
 }
 .primary_btn {
   background-color: #fd6e0a;
@@ -27,6 +27,9 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+}
+.default_padding {
+  padding: 130px 230px;
 }
 .dark-1 {
   color: rgba(24, 24, 24, 1);
@@ -106,17 +109,16 @@ header {
   gap: 25px;
 }
 
-
 /* Main section  */
-main{
+main {
   padding: 130px 230px;
 }
 
 /* About section  */
-.about_section{
+.about_section {
   padding: 130px 160px;
 }
-.about_section_contents{
+.about_section_contents {
   padding: 20px 20px;
   display: flex;
   line-height: 2rem;
@@ -125,56 +127,54 @@ main{
   max-width: 80%;
   margin: auto;
 }
-.about_section_title{
+.about_section_title {
   font-size: 35px;
   font-weight: bold;
 }
-.about_section_description{
+.about_section_description {
   font-size: 18px;
 }
 
-.about_section_informations{
+.about_section_informations {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.about_section_information p{
-font-size: 20px;
-color: #757575;
+.about_section_information p {
+  font-size: 20px;
+  color: #757575;
 }
-.about_section_information h6{
+.about_section_information h6 {
   font-size: 20px;
   font-weight: bold;
   color: #474747;
 }
 
 /* Skills Section */
-.skills_section{
+.skills_section {
   display: flex;
   flex-direction: column;
   gap: 50px;
   padding: 130px 230px;
-
 }
-.skill_section_contents{
+.skill_section_contents {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.skill_section_title{
+.skill_section_title {
   font-size: 35px;
   font-weight: bold;
 }
-.skill_section_description{
+.skill_section_description {
   font-size: 18px;
 }
 
-.skills_section_skills{
+.skills_section_skills {
   display: flex;
   gap: 25px;
-
 }
-.skill_section{
+.skill_section {
   padding: 30px 20px;
   display: flex;
   flex-direction: column;
@@ -182,16 +182,77 @@ color: #757575;
   justify-content: center;
   box-shadow: 1px 3px 20px rgba(0, 0, 0, 0.06);
 }
-.skill_section img{
+.skill_section img {
   width: 45px;
   height: auto;
 }
-.skill_section .title{
+.skill_section .title {
   font-size: 20px;
   font-weight: bold;
-color:#181818;
+  color: #181818;
 }
 
-.skill_section .description{
-  color:#757575 ;
+.skill_section .description {
+  color: #757575;
 }
+
+/* Resume Section */
+.resume_section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  padding: 0px 230px;
+}
+.resume_head_title {
+  font-size: 35px;
+  font-weight: bold;
+  /* padding: 0px 0px 130px 0px; */
+}
+
+.resume_summarry {
+  display: flex;
+  gap: 25px;
+}
+
+
+.resume_summary_education{
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  
+  color: #474747;
+}
+.resume_summary_title{
+  font-size: 25px;
+  color: #474747;
+  font-weight: bold;
+ 
+}
+.resume_group{
+  display: flex;
+  flex-direction: column;
+ margin-top: 30px;
+}
+.resume_title{
+  font-size: 25px;
+  color: #474747;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.resume_subtitle{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600px;
+  color: #757575;
+}
+.resume_description{
+color: #757575;
+margin-bottom: 30px ;
+font-size: 16px;
+}
+
+.resume_button{
+  margin-top: -10%;
+}
+
+/* Contact Section */
