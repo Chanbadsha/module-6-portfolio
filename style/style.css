@@ -6,6 +6,9 @@
   box-sizing: border-box;
  
 }
+.hide{
+  display: none !important;
+}
 /* Shared Css */
 body{
   font-family: "Open Sans", sans-serif;
@@ -326,4 +329,78 @@ textarea{
   width: 100%;
   padding: 18px 30px;
   border-radius: 5px;
+}
+
+/* Media Query Section */
+@media screen and (max-width:576px){
+  header{
+    width: 100%;
+    background-position: left center, 70% bottom;
+  }
+  .header_nav, .banner_content{
+    /* display: flex;
+     */
+     width: 100%;
+     flex-direction: column;
+    /* align-items: center; */
+
+    padding:10px 100px;
+  }
+  .banner_section {
+    /* display: flex; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 0px ;
+  }
+  .banner_title {
+    font-size: 35px;
+    /* font-weight: bold; */
+  }
+  .banner_subtitle{
+    font-size: 30px;
+  }
+  .primary_btn{
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+  .nav_menu li a .primary_btn{
+    font-size: 15px;
+    width: 100px;
+    margin: auto;
+    padding: 8px ;
+    /* text-decoration: none; */
+  }
+  main{
+    padding: 0px;
+  }
+  .about_section {
+    padding: 50px 0px;
+   
+  }
+  .about_section_contents{
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    line-height: 1.2;
+    max-width: 95%;
+}
+  .about_section_informations{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .skills_section_skills{
+    flex-direction: column;
+    
+  }
+  .skills_section{
+    padding: 0px 10px;
+    align-items: center;
+  }
+  .skill_section{
+    gap: 10px;
+  }
 }
